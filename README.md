@@ -23,6 +23,31 @@ Watch a demo: [Demo](https://photos.app.goo.gl/2y23KqLmBj6v5CAD8)
 
 ---
 
+## 🧪 Research & Development
+
+### Problem-Specific Innovations
+1. **Monocular Depth for Assistive Tech**  
+   - Overcomes LiDAR cost barriers using CNN-ViT fusion ([Ranftl et al., 2021](https://arxiv.org/abs/2103.13413))  
+   - 43% lighter than MiDaS v3.0 with comparable accuracy
+
+2. **Ethical Pathfinding**  
+   - Prioritizes wide walkways and handrail proximity using CDC accessibility guidelines  
+   - Avoids "robotic" zig-zag paths through human trajectory modeling ([Helbing & Molnár, 1995](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282))
+
+3. **Multi-Modal Feedback**  
+   - Audio cues tested with 15 visually impaired users for intuitive directionality  
+   - Haptic patterns designed with neurologists to prevent sensory overload
+
+### Performance Metrics
+| Metric                | Naviguide AI | Baseline (LiDAR) |
+|-----------------------|--------------|------------------|
+| Obstacle Recall       | 94.2%        | 97.1%           |
+| Path Safety Margin    | 0.82m        | 0.75m           |
+| Latency (End-to-End)  | 127ms        | 89ms            |
+| Cost                  | $129         | $2,100+         |
+
+---
+
 ## 🧠 Technical Architecture
 
 ### Core Pipeline
@@ -67,31 +92,6 @@ git clone https://github.com/San68bot/NaviguideAI.git
 cd NaviguideAI
 pip install -r requirements.txt
 ```
-
----
-
-## 🧪 Research & Development
-
-### Problem-Specific Innovations
-1. **Monocular Depth for Assistive Tech**  
-   - Overcomes LiDAR cost barriers using CNN-ViT fusion ([Ranftl et al., 2021](https://arxiv.org/abs/2103.13413))  
-   - 43% lighter than MiDaS v3.0 with comparable accuracy
-
-2. **Ethical Pathfinding**  
-   - Prioritizes wide walkways and handrail proximity using CDC accessibility guidelines  
-   - Avoids "robotic" zig-zag paths through human trajectory modeling ([Helbing & Molnár, 1995](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282))
-
-3. **Multi-Modal Feedback**  
-   - Audio cues tested with 15 visually impaired users for intuitive directionality  
-   - Haptic patterns designed with neurologists to prevent sensory overload
-
-### Performance Metrics
-| Metric                | Naviguide AI | Baseline (LiDAR) |
-|-----------------------|--------------|------------------|
-| Obstacle Recall       | 94.2%        | 97.1%           |
-| Path Safety Margin    | 0.82m        | 0.75m           |
-| Latency (End-to-End)  | 127ms        | 89ms            |
-| Cost                  | $129         | $2,100+         |
 
 ---
 
