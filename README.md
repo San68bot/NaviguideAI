@@ -6,7 +6,7 @@
 
 **Naviguide AI** is an assistive navigation system that empowers visually impaired users to navigate complex environments safely. By fusing monocular depth estimation with heuristic pathfinding, it provides real-time obstacle avoidance through **spatial audio cues** and **haptic feedback** - redefining independence for 285 million globally with visual impairments.
 
-<img src="ex1.png" alt="ex1" width="500"/> <img src="ex2.png" alt="ex2" width="500"/>
+<img src="ex1.png" alt="ex1" width="350"/> <img src="ex2.png" alt="ex2" width="350"/>
 
 https://github.com/user-attachments/assets/39ded412-b9fe-4f5b-98e7-b42a7edfdadf
 
