@@ -5,7 +5,10 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)
 
 **Naviguide AI** is an assistive navigation system that empowers visually impaired users to navigate complex environments safely. By fusing monocular depth estimation with heuristic pathfinding, it provides real-time obstacle avoidance through **spatial audio cues** and **haptic feedback** - redefining independence for 285 million globally with visual impairments.
-Watch a demo: [Demo](https://photos.app.goo.gl/2y23KqLmBj6v5CAD8)
+
+<img src="ex1.png" alt="ex1" width="500"/> <img src="ex2.png" alt="ex2" width="500"/>
+
+https://github.com/user-attachments/assets/39ded412-b9fe-4f5b-98e7-b42a7edfdadf
 
 ---
 
