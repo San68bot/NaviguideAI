@@ -107,7 +107,6 @@ pip install -r requirements.txt
 
 ## License  
 MIT License - Free for non-commercial use. Commercial licensing available.  
-**Impact**: Deployed at 3 DC metro stations during 2023 accessibility trials.  
 
 [![GitHub Stars](https://img.shields.io/github/stars/San68bot/NaviguideAI?style=social)](https://github.com/San68bot/NaviguideAI/stargazers)
 ```
